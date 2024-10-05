@@ -493,20 +493,19 @@
 
 .footer__container .wrapper {
     position: relative;
-    transform: translateX(-10px);
     width: calc(100% - 240px);
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: calc((100% - 252px - 302px - 409px) / 3);
 }
 
 .footer .logo {
     display: flex;
-    width: 492px;
+    width: 409px;
     height: 173px;
     position: relative;
+    
 }
 
 .footer .logo__shadow {
@@ -567,7 +566,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 25px;
-    transform: translate(10px, 5px);
+    transform: translate(0, 5px);
 }
 
 .contact * {
