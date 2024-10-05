@@ -502,9 +502,10 @@
 
 .footer .logo {
     display: flex;
-    width: 409px;
+    width: calc(409px - 110px);
     height: 173px;
     position: relative;
+    transform: translateY(15px);
     
 }
 
@@ -513,8 +514,7 @@
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    width: 648px;
-    height: 373px;
+    width: calc(648px - 160px);
 }
 
 .footer .logo__main {
@@ -522,16 +522,16 @@
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    width: 409px;
-    height: 120px;
+    width: calc(409px - 110px);
 }
 
 .footer__buttons {
     margin-top: 60px;
     display: grid;
     gap: 18px;
-    position: relative;
-    transform: translate(-45px, -5px);
+    position: absolute;
+    transform: translate(-50%, -5px);
+    left: 50%;
 }
 
 .buttons--bottom,
@@ -539,10 +539,13 @@
     display: flex;
     gap: 48px;
 }
-
+.buttons--top {
+    position: relative;
+    left: -10%;
+}
 .buttons--bottom {
     position: relative;
-    left:20%;
+    left:10%;
 }
 
 .footer .footer__buttons .button {
