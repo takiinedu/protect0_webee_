@@ -92,10 +92,10 @@
     font-size: 12px;
     line-height: 15px;
     display: flex;
-    text-align: right;
+    text-align: left;
     color: #000000;
-    padding-right: 36px;
-    padding-top: 0.5px;
+    padding: 0.5px 36px 0 12px;
+    outline: none;
 }
 
 .searchbox__input::placeholder {

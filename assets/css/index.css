@@ -493,7 +493,7 @@
 
 .footer__container .wrapper {
     position: relative;
-    transform: translateX(-13px);
+    transform: translateX(-10px);
     width: calc(100% - 240px);
     margin: auto;
     display: flex;
@@ -532,7 +532,7 @@
     display: grid;
     gap: 18px;
     position: relative;
-    transform: translate(-18px, -5px);
+    transform: translate(-45px, -5px);
 }
 
 .buttons--bottom,
@@ -542,7 +542,8 @@
 }
 
 .buttons--bottom {
-    padding-left: 70px;
+    position: relative;
+    left:29%;
 }
 
 .footer .footer__buttons .button {
