@@ -86,12 +86,12 @@
     background-clip: text;
     letter-spacing: -0.58px;
     position: relative;
+    transform: translateX(-4px);
 }
 
 .selection1 .underline {
     margin-top: 20px;
     width: 421px;
-    transform: translateX(3px);
 }
 
 .selection1__comment {
@@ -322,7 +322,7 @@
     width: calc(100% - 242px);
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr 1fr;
-    gap: 135px;
+    gap: 138px;
 }
 
 .selection4 .item {

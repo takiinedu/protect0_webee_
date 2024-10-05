@@ -11,7 +11,7 @@
 }
 
 .header .wrapper {
-    width: calc(100% - 121*2px);
+    width: calc(100% - 120*2px);
     display: flex;
     justify-content: space-between;
 }
@@ -20,7 +20,7 @@
     width: 162.34px;
     height: 50.27px;
     position: relative;
-    transform: translate(1px,1px);
+    transform: translate(0,1px);
 }
 
 .header--right {
