@@ -1,7 +1,7 @@
 document.getElementById('header').innerHTML = `
             <div class="wrapper">
             <div class="header--left">
-                <img class="header--logo logo" src="assets/img/Logo.png" alt="Website Logo">
+                <img class="header--logo logo" src="assets/img/header/Logo.png" alt="Website Logo">
             </div>
             <div class="header--right">
                 <ul class="header__nav nav">
@@ -14,11 +14,11 @@ document.getElementById('header').innerHTML = `
                     <div class="header__searchbox">
                         <input class="searchbox__input" type="text" placeholder="Tìm kiếm">
                         <div class="searchbox__button">
-                            <img class="searchbox__img" src="assets/img/icons8-search-144.png" alt="Search Icon">
+                            <img class="searchbox__img" src="assets/img/header/icons8-search-144.png" alt="Search Icon">
                         </div>
                     </div>
                     <button class="header__login">
-                        <img class="login__img" src="assets/img/LoginButton-header.png" alt="Login Button">
+                        <img class="login__img" src="assets/img/header/LoginButton-header.png" alt="Login Button">
                     </button>
                 </div>
             </div>

@@ -11,7 +11,7 @@
 }
 
 .header .wrapper {
-    width: calc(100% - 120*2px);
+    width: calc(100% - 121*2px);
     display: flex;
     justify-content: space-between;
 }
